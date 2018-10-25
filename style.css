@@ -1,0 +1,21 @@
+
+.pulse {
+    animation:
+    pulse 2s infinite;
+}
+.dark{
+    background-color:rgb(48, 52, 56);
+}
+.lighten{
+    color:silver;
+}
+@keyframes cursor-blink {
+    from, to { border-color: transparent }
+    50% { border-color: black; }
+}
+
+@keyframes pulse{
+    0% {color:silver}
+    50% {color:rgb(27, 24, 224)}
+    100%{color:silver}
+}
